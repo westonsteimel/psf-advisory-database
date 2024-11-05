@@ -1,5 +1,5 @@
 {
-  "modified": "2024-10-30T16:09:49.193Z",
+  "modified": "2024-11-04T17:30:43.520Z",
   "published": "2024-10-22T16:34:39.210Z",
   "schema_version": "1.5.0",
   "id": "PSF-2024-12",
@@ -18,6 +18,18 @@
             },
             {
               "fixed": "e52095a0c1005a87eed2276af7a1f2f66e2b6483"
+            },
+            {
+              "fixed": "633555735a023d3e4d92ba31da35b1205f9ecbd7"
+            },
+            {
+              "fixed": "8450b2482586857d689b6658f08de9c8179af7db"
+            },
+            {
+              "fixed": "9286ab3a107ea41bd3f3c3682ce2512692bdded8"
+            },
+            {
+              "fixed": "ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97"
             }
           ],
           "repo": "https://github.com/python/cpython"
@@ -41,6 +53,22 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97"
     }
   ],
   "database_specific": {
