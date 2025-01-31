@@ -1,11 +1,11 @@
 {
+  "modified": "2025-01-31T17:53:36Z",
+  "published": "2025-01-31T17:51:35Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-0938",
+  "id": "PSF-2025-1",
   "aliases": [
     "CVE-2025-0938"
   ],
-  "published": "2025-01-31T17:51:35.898Z",
-  "modified": "2025-01-31T17:53:36.106Z",
   "details": "The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.",
   "affected": [
     {
