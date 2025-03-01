@@ -1,11 +1,11 @@
 {
+  "modified": "2025-02-28T20:32:56Z",
+  "published": "2025-02-28T18:59:31Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-1795",
+  "id": "PSF-2025-3",
   "aliases": [
     "CVE-2025-1795"
   ],
-  "published": "2025-02-28T18:59:31.784Z",
-  "modified": "2025-02-28T20:32:56.849Z",
   "details": "During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.",
   "affected": [
     {
